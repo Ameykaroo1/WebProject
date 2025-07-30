@@ -1,0 +1,428 @@
+@media screen and (max-width: 1024px){
+
+.open-btn{
+  width: 100px;
+}
+
+.nav-item{
+  width:45vw ;
+}
+
+.option{
+  font-size: 13px;
+}
+
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.head-dis{
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-heading{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+  .cta-heading{
+    width: 360px;
+    height: 4vh;
+  }
+
+  .heading{
+    width: 45vw;
+    max-height: 16vh;
+    overflow: hidden;
+  }
+
+  .hero-discription{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .get-start{
+    width: 140px;
+    
+  }
+
+  .subject{
+    font-size: 10px;
+    height: 4vh;
+  }
+
+  .about-heading{
+    font-size: clamp(35px, 2.08vw, 50px);
+  }
+
+  .about-dis{
+    font-size: clamp(14px, 1.09vw, 24px);
+  }
+
+  .about-cta button{
+    width: 80px;
+    font-size: clamp(10px,0.88vw,20px);
+  }
+
+  .about-cta img{
+    width: 2vh;
+  }
+
+  .ques{
+    font-size: clamp(14px, 0.93vw, 20px);
+  }
+
+  .footer-dis{
+    font-size: clamp(10px, 0.677vw, 16px);
+  }
+
+  .foot-head{
+    font-size: clamp(12px, 0.729vw,16px);
+  }
+
+  .footer-right p{
+    font-size: clamp(11px,0.677vw, 15px);
+  }
+
+  .resources, .developers, .company{
+    height: 18vh;
+    width: 8vw;
+  }
+}
+
+@media screen and (max-width: 1440px){
+  .resources, .developers, .company{
+    height: 18vh;
+    width: 8vw;
+  }
+}
+
+@media (max-width: 767px){
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+nav{
+  width: 80vw;
+}
+
+  .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-content, .head-dis, .hero-heading{
+    width: 80vw;
+  }
+
+  .cta-heading{
+    width: 325px;
+  }
+
+  .cta-heading a{
+    font-size: clamp(8px, 0.46vw, 10px);
+    padding-left: 5px;
+  }
+
+  .dot{
+    padding: 0;
+    display: none;
+  }
+
+  .cta-heading img{
+    width: 10px;
+  }
+
+  .heading{
+    font-size: clamp(22px,1.5vw,32px);
+    width: 70vw;
+  }
+  
+  .hero-discription{
+    width: 70vw;
+    height: 6vh;
+    color: black;
+  }
+
+  .main-heading{
+    width: 70vw;
+    font-size: clamp(30px,1.77vw, 36px);
+  }
+
+  .main1{
+    height: 179vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .workshop{
+  width: 960px;
+  height: 179vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  }
+
+  .feature{
+    width:960px;
+    height: 180vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+
+  .features{
+    width: 380px;
+    height: 40vh;
+    background-size: 240px;
+    border-radius: 10px 0px 10px 10px;
+  }
+
+  .main2{
+    padding-top: 60px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .about{
+    width: 80vw;
+  }
+
+  .section-content{
+    width: 80vw;
+  }
+
+  .about-dis,.about-heading{
+    width: 70vw;
+  }
+
+  .bento{
+    width: 80vw;
+    display: flex;
+  }
+
+  .frame1{
+    width: 40vw;
+    height: 50vh ;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .frame2-3{
+    width: 40vw;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .faq{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .faq-heading{
+    width: 70vw;
+    height: 9vh;
+    text-align: center;
+  }
+
+  .faq-que{
+    width: 340px;
+  }
+
+  .que, .ques{
+    width: 340px;
+  }
+
+  footer, .border-bottom1{
+    width: 80vw;
+  }
+
+  .footer-left{
+    width: 46vw;
+  }
+
+  .footer-right{
+    width: 34vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+  .border-bottom2{
+    width: 74vw;
+  }
+
+  .border-bottom3{
+    width: 68vw;
+  }
+}
+
+.footer-logo{
+  width: 20vw;
+}
+
+@media screen and (max-width: 620px) {
+  main{
+    background-size: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-content{
+    left: 45px;
+  }
+
+  .bento{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main2{
+    height: 140vh;
+    
+  }
+
+  .about{
+    height: 131vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .bento{
+    height: 101vh;
+    width: 372px;
+  }
+
+  .frame1{
+    height: 45vh;
+    width: 340px;
+  }
+
+  .frame2-3{
+    height: 54vh;
+    width: 340px;
+  }
+
+  .frames{
+    height: 44vh;
+    width: 340px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .main4{
+    display: flex;
+    justify-content: start;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+  }
+
+  .footer-left{
+    width: 70vw;
+  }
+
+  .footer-logo{
+    width: 70vw;
+    display: flex;
+    justify-content: start;
+    padding: 0;
+
+  }
+
+  .footer-logo1{
+    width: 30px;
+  }
+
+   .footer-text{
+    padding-left: 10px;
+    width: 60px;
+    height: 12px;
+   }
+
+  .footer-dis{
+    height: 16vh;
+    padding: 0;
+  }
+
+  .footer-social{
+    display: none;
+  }
+
+  .footer-right{
+    width: 70vw;
+  }
+
+  .resources, .developers,.company{
+    width: 20vw;
+  }
+}
+
+@media screen and (max-width: 424px){
+  main{
+    background-position: bottom;
+    max-height: 70vh;
+  }
+
+  .hero-content{
+    width: 90vw;
+    left: 15px;
+  }
+
+  .head-dis, .hero-heading, .cta-heading, .heading, .hero-discription{
+    width: 90vw;
+  }
+
+  .hero-discription{
+    height: 50px;
+  }
+
+  .workshop,.main-heading,.feature, .features{
+    width: 90vw;
+  }
+
+  .main2, .about, .section-content, .about-heading, .about-dis,
+  .frame1, .frame2-3, .frames{
+    width: 90vw;
+  }
+
+  .frame2{
+    background-size: contain;
+  }
+
+  .main3, .faq, .faq-que ,.que, .ques{
+    width: 90vw;
+  }
+
+  .ques{
+    font-size: clamp(13px, 0.72vw, 16px);
+  }
+}
